@@ -1,4 +1,4 @@
-# pip install flask
+# pip install Flask
 
 from flask import Flask, render_template
 
@@ -18,7 +18,7 @@ def profile():
         "김치찌개",
         "칼국수",
         "쌀국수",
-        "자장면",
+        "짜장면",
     ]
     return render_template("profile.html", like_foods=like_foods)
 
